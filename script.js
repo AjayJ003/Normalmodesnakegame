@@ -34,7 +34,7 @@ if(leaderBoardList===null||leaderBoardList == []){
 
 //username and prompt message display
 let username = prompt("Please enter your username","Guest");
-window.alert("If you eat the food according to sequence you will gain time of +5 and extra points of +5!!!")
+window.alert("If you eat the food according to sequence you will gain time of +5 !!!")
 window.alert("Close the leaderboard before the game")
 
 //Getting highscore from localStroage
