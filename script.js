@@ -162,7 +162,6 @@ const startGame = () => {
                 foodlist.splice(i,1);
                 element.splice(i,1);
                 if (foodlist.length == 0){
-                    gameScore += 5;
                     second+= 5;
                     createfood();            
                 }
